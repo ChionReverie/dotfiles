@@ -1,0 +1,2 @@
+set multibuffer
+include "/usr/share/nano/*.nanorc"
