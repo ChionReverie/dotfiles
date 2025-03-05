@@ -3,10 +3,10 @@
 * [ ] MIME default apps
 
 ## Preferred App/Tool choices 
-- [ ] Web Browser
-- [ ] File Browser
+- [x] Web Browser
+- [x] File Browser
 - [ ] Notification Daemon
-- [ ] App Launcher
+- [x] App Launcher
 
 - [ ] Wallpaper Selector
 - [ ] System Tray
