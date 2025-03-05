@@ -9,3 +9,5 @@ Example for a user named chion:
 useradd chion --create-home --groups wheel,ftp
 passwd chion
 ```
+
+Remember to set up the ssh key for the user.

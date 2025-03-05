@@ -1,0 +1,27 @@
+# Config for sway
+# 
+# Read `man 5 sway` for a complete reference.
+
+### Main Variables
+# Super key
+set $mod Mod4
+# Home row directional keys, like vim
+set $left h
+set $down j
+set $up k
+set $right l
+# Terminal emulator
+set $term ghostty
+# App launcher
+set $dmenu "rofi -mode run -show run"
+set $appmenu "rofi -mode drun -show drun -show-icons"
+
+include theme.conf
+include display.conf
+include keybinds-app.conf
+include keybinds-layout.conf
+include keybinds-main.conf
+include keybinds-nav.conf
+include bar.conf
+include /etc/sway/config.d/*
+

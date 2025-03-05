@@ -13,7 +13,7 @@ pacman --sync nano sudo git wget man-db man-pages texinfo
 ```
 
 Edit the sudoers config with `EDITOR=nano visudo`. There is a line somewhere
-in the file that starts with `# root ALL=(ALL:ALL) ALL`. Remove the `# ` at
+in the file that starts with `# %wheel ALL=(ALL:ALL) ALL`. Remove the `# ` at
 the beginning to uncomment the line, thus allowing users in the `wheel` group
 to use the sudo command.
 
@@ -30,11 +30,10 @@ pacman --sync openssh zerotier-one
 sudo cp --recursive \
     ~/.dotfiles/root/etc/ssh/sshd_config.d/* \
     /etc/ssh/sshd-config.d/
+systemctl enable sshd zerotier-one
 ```
 
 For systems that will not be part of a zerotier network, you can of course  
 skip installing `zerotier-one`.
 
-`openssh` // Remember to set up and enable sshd
 
-`zerotier-one` // Remember to enable/start and connect to a network.

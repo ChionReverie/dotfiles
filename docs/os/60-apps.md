@@ -2,12 +2,13 @@
 
 ---
 
-firefox 135.0.1-1
-thunar 4.20.2-1
+Install ALL THE APPS
+```
+pacman --sync firefox thunar yazi hyfetch ghostty
+```
 
-Defaults:
-
-- foot 1.20.2-1
-- wmenu 0.1.9-1
-
-polkit 126-2
+firefox - Web Browser
+thunar - GUI File Browser
+yazi - Console File Browser
+hyfetch - System info (for console)
+ghostty - Console
