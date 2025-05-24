@@ -14,3 +14,6 @@
 - [ ] Audio/Media Controller
 - [ ] Logout Menu
 - [ ] Clipboard Manager
+
+## Other Notes
+- [ ] Screen off on idle for X minutes, then lock on idle for Y more minutes

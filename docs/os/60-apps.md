@@ -19,3 +19,5 @@ Chosen Apps:
 - yazi - Console File Browser
 - hyfetch - System info (for console)
 - ghostty - Console
+- discord - Commmunication platform
+- grim - Screenshot tool

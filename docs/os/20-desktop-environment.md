@@ -7,7 +7,7 @@
 
 
 ```sh
-pacman --sync sway swaylock swayidle swaybg greetd nwg-hello
+pacman --sync sway swaylock swayidle swaybg greetd nwg-hello swaync xorg-xwayland waybar
 ```
 
 Activate the login screen (nwg-hello) on boot with Greetd.
