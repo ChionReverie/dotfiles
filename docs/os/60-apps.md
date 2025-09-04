@@ -16,7 +16,6 @@ Chosen Apps:
 - rofi - App launcher
 - firefox - Web Browser
 - thunar - GUI File Browser
-- yazi - Console File Browser
 - hyfetch - System info (for console)
 - ghostty - Console
 - discord - Commmunication platform

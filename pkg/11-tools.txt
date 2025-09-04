@@ -1,0 +1,8 @@
+nano
+sudo
+git
+wget
+man-db
+man-pages
+texinfo
+openssh

@@ -17,3 +17,8 @@
 
 ## Other Notes
 - [ ] Screen off on idle for X minutes, then lock on idle for Y more minutes
+
+
+
+To make screenshare work:
+- xdg-desktop-portal-wlr

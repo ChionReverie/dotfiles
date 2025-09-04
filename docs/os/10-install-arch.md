@@ -1,5 +1,7 @@
 # Phase 1.0: Install Linux (Arch)
 
+> The inital Arch installation can be expedited using `archinstall`. Neat!
+
 Be sure to closely examine the [Installation Guide on Arch Wiki](https://wiki.archlinux.org/title/Installation_guide),
 in case I missed anything of importance.
 

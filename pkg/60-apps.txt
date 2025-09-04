@@ -1,0 +1,7 @@
+rofi
+firefox
+thunar
+hyfetch
+ghostty
+discord
+grim

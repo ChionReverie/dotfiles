@@ -1,0 +1,9 @@
+sway
+swaylock
+swayidle
+swaybg
+greetd
+nwg-hello
+swaync
+xorg-xwayland
+waybar

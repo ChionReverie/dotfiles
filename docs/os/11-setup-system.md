@@ -6,6 +6,8 @@ the system to your needs.
 Remember that you can always boot into the livedisk for repairs (for example
 if your network is not behaving).
 
+
+
 ## Some Necessary Tools
 
 ```sh
@@ -36,4 +38,9 @@ systemctl enable sshd zerotier-one
 For systems that will not be part of a zerotier network, you can of course  
 skip installing `zerotier-one`.
 
+## Audio
+Set up the Pipewire sound system
+```sh
+pacman --sync pipewire-audio pipewire-alsa pipewire-pulse pipewire-jack 
+```
 
