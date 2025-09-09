@@ -1,0 +1,13 @@
+[package]
+name = "chion-dotfiles-auto"
+authors = [ "Chion Reverie" ]
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cliclack = "0.3.6"
+colored = "3.0.0"
+indoc = "2.0.6"
+ron = "0.11.0"
+serde = "1.0.219"
+serde-semver = "0.2.1"
