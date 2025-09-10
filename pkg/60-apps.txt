@@ -1,4 +1,3 @@
-rofi
 firefox
 thunar
 hyfetch

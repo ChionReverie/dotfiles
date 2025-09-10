@@ -7,3 +7,4 @@ nwg-hello
 swaync
 xorg-xwayland
 waybar
+wofi

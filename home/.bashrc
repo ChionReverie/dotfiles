@@ -5,16 +5,13 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-PATH="$PATH:$HOME/apps/bin"
+# Load profiles from ~/profile.d
+if test -d "$HOME/.profile.d"; then
+    for profile in "$HOME/.profile.d/{local,portable}/*.sh"; do
+        test -r "$profile" && . "$profile"
+    done
+    unset profile
+fi
 
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
-PS1='[\u@\h \W]\$ '
-
-DOTFILES_HOME="$HOME/.dotfiles/home"
-DOTFILES_ROOT="$HOME/.dotfiles/root"
-alias stow_home="stow --dir='$DOTFILES_HOME' --target='$HOME'"
-alias stow_root="stow --dir='$DOTFILES_ROOT' --target='/'"
-
-alias fetch="neowofetch"
+# Auto run
 fetch
