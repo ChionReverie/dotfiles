@@ -6,7 +6,7 @@ use ron::de::from_reader;
 use serde::{Deserialize, Serialize};
 
 use crate::{
-    comandline::dotfiles_relative,
+    comandline::relative_to_dotfiles,
     step::{Step, StepStatus},
 };
 
@@ -26,7 +26,7 @@ impl ProgressCache {
     }
 
     pub fn load() -> Result<ProgressCache, Box<dyn Error>> {
-        let path = dotfiles_relative("auto/.cache/progress.ron");
+        let path = relative_to_dotfiles("auto/.cache/progress.ron");
 
         if !fs::exists(&path)? {
             let cache = ProgressCache::default();
@@ -42,7 +42,7 @@ impl ProgressCache {
     }
 
     pub fn save(&self) -> Result<(), Box<dyn Error>>{
-        let parent = dotfiles_relative("auto/.cache");
+        let parent = relative_to_dotfiles("auto/.cache");
         std::fs::create_dir_all(&parent)?;
         
         let path = parent.join("progress.ron");
