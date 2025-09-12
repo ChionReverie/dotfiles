@@ -1,5 +1,5 @@
 firefox
-thunar
+nemo
 hyfetch
 ghostty
 discord

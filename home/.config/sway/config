@@ -13,8 +13,9 @@ set $right l
 # Terminal emulator
 set $term ghostty
 # App launcher
-set $dmenu "rofi -mode run -show run"
-set $appmenu "rofi -mode drun -show drun -show-icons"
+set $dmenu wofi -mode run -show run
+set $appmenu wofi -mode drun -show drun -show-icons
+set $fileexplorer nemo
 
 include theme.conf
 include display.conf

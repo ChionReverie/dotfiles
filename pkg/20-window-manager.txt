@@ -2,9 +2,9 @@ sway
 swaylock
 swayidle
 swaybg
+swaync
 greetd
 nwg-hello
-swaync
 xorg-xwayland
 waybar
 wofi
